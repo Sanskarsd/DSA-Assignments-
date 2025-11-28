@@ -2,6 +2,7 @@
 using namespace std;
 int length(char n[]){
     int i=0,sum=0;
+    int j;
     while(n[i] != '\0'){
         sum++;
         i++;
@@ -9,6 +10,8 @@ int length(char n[]){
     cout << "Length : " << sum << endl;
     return sum;
 }
+
+
 void reverse(char n[]){
     char rev[500];
     int j=0;
